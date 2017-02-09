@@ -4,18 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace excercises1
+namespace excercises1._5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for (int i = 50; i <= 101; i++)
-            {
-                Console.WriteLine(i * 2);
-                
-            }
+            CLBirdie birdie = new CLBirdie();
+            Console.WriteLine(birdie.MakeSomeNoise());
             Console.ReadKey();
         }
+        
     }
 }
